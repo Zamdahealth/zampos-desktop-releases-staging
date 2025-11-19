@@ -3,7 +3,7 @@ name: Deploy STAGING release to GitHub Pages
 on:
   push:
     branches:
-      - staging
+      - main
   workflow_dispatch: # optional manual trigger
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout staging branch
         uses: actions/checkout@v4
 
-      - name: Deploy Staging
+      - name: Deploy Main
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
