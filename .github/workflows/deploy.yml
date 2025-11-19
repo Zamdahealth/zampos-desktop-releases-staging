@@ -1,0 +1,24 @@
+name: Deploy GitHub Pages (Production + Staging)
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+  workflow_dispatch: # optional manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the branch
+        uses: actions/checkout@v4
+
+      - name: Deploy Staging
+        if: github.ref == 'refs/heads/staging'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pages-staging     # staging deployment branch
+          publish_dir: ./releases           # folder containing static files
+          cname: staging.zampos-desktop.zamdahealth.com
