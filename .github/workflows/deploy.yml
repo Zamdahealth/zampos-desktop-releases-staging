@@ -1,21 +1,19 @@
-name: Deploy GitHub Pages (Production + Staging)
+name: Deploy STAGING release to GitHub Pages
 
 on:
   push:
     branches:
-      - main
       - staging
   workflow_dispatch: # optional manual trigger
 
 jobs:
-  deploy:
+  deploy-staging:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the branch
+      - name: Checkout staging branch
         uses: actions/checkout@v4
 
       - name: Deploy Staging
-        if: github.ref == 'refs/heads/staging'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
