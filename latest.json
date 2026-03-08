@@ -1,10 +1,10 @@
 {
-  "version": "0.5.2",
-  "notes": "zamdahealth version 0.5.2",
+  "version": "0.5.3",
+  "notes": "zamdahealth version 0.5.3",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZXRFYnlRRjhtZkdHMmwvTFBiM2cvWmhKRHVGbStSMTZEbTNlTGtma2xka0wxcEdmYUl3cG15emNFY0FoNDBtK0wvaHVxZjVnSnVkeEN6dVhHSmlwcEd5ZW1qZnQ3d2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyOTQ3NzY3CWZpbGU6emFtZGFoZWFsdGgtcG9zLWRlc2t0b3Atc3RnXzAuNS4yX3g2NC1zZXR1cC5leGUKblRxTldzV1JlUU1KazMvZU1yWkJ6aGx6c0wydmp5eHc0ak9SVGhRdkQvalZqNjkxdm55SmdPMzZnTzM2UkJpQThLVDVSV0NRUGc1bDN2S2RnMWpXQ2c9PQo=",
-      "url": "https://staging.zampos-desktop.zamdahealth.com/zamdahealth-pos-desktop-stg_0.5.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZXRFYnlRRjhtZlBGQlhmZzIrNDNKUENIcVBYYlVhcnBNU1V2SWRNdW1HSkJ3d2t3T0IrOFlNVTl5YWVyaG9IT2R5TDFLb0dHM0JrQUpOaWJnTlNrVEJEMjVqQU5BdUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyOTk0Njc3CWZpbGU6emFtZGFoZWFsdGgtcG9zLWRlc2t0b3Atc3RnXzAuNS4zX3g2NC1zZXR1cC5leGUKTWExTFk1VUY5cXhVSDB3Z3paa3NjQi9nbkVXZEN6YkZjSUx5TGRLUEFKQWtOd2VEUXVmN0U0SXZjTi9RRUdiUUJVSWJJWVcwYVV3QmpYZlJwYmlrREE9PQo=",
+      "url": "https://staging.zampos-desktop.zamdahealth.com/zamdahealth-pos-desktop-stg_0.5.3_x64-setup.exe"
     }
   }
 }
